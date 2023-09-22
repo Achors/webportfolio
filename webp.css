@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     text-decoration: none;
     box-sizing: border-box;
@@ -9,15 +12,17 @@ ul {
 #nav-bar {
     background-color: #000;
     color:aqua;
-    
+    height: 70px;
+    top: 0px;   
     
 }
 #nav-list {
     display: flex;
-    gap: 10px;
-    font-size: 20px;
+    gap: 15px;
+    font-size: 30px;
     justify-content: right;
     text-align: right;
+    margin-right: 25px;
 }
 #name-elmt{
     
@@ -28,11 +33,22 @@ ul {
     width: 100%;
     height: 650px;
     padding: 10px;
-    background-image: url(./images/soft\ image.jpg);
+    overflow: hidden;
+    position:relative;
+    /* background-image: url(./images/soft\ image.jpg); */
 
+}
+#img-bg {
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
 }
 #elmt {
     margin-top: 200px;
+    position: relative;
 
 }
 #footer-div {
