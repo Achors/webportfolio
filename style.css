@@ -16,6 +16,9 @@ ul {
     top: 0px;   
     
 }
+#nav-bar a {
+    color: aqua;
+}
 #nav-list {
     display: flex;
     gap: 15px;
@@ -23,6 +26,18 @@ ul {
     justify-content: right;
     text-align: right;
     margin-right: 25px;
+}
+button {
+    background-color: aqua;
+    color: #000;
+    border-radius: 50%;
+    width: 100px;
+    height: 55px;
+    font-size: 18px;
+}
+button a {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
 }
 #name-elmt{
     
