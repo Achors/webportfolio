@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: black;
+    color: white;
+    width: fit-content;
+}
+.info {
+    margin: 120px 170px;
+
+}
+#close {
+    display: block;
+    font-size: 25px;
+    color: #009e66;
+    position: fixed;
+    cursor: pointer;
+    right: 50px;
+    top: 20px;
+}
+#about-menu {
+    display: flex;
+    flex-direction: column;
+    
+}
+.About-me {
+    display: flex;
+    gap: 100px;
+    margin: 35px;
+    height: 300px;
+
+}
+.cv {
+    border-radius: 30px;
+    font-size: 13px;
+    color: white;
+    height: 20px;
+    width: 100px;
+    background-color: #009e66;
+}
+.cv button {
+    width: 100px;
+    height: 30px;
+}
+.get {
+    margin: 10px 400px;
+}
+#details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.details {
+    height: 15px;
+    width: 320px;
+    display: flex;
+    margin: 0px 10px;
+}
+.dash {
+    height: 3px;
+    width: 40px;
+    background-color: rgb(173, 173, 173);
+}
+.socials {
+    display: flex;
+    gap: 15px;
+    margin: 0px 100px;
+}
+#services {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.service-description {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.services {
+    background: rgb(39, 38, 38);
+    align-items: center;
+    padding: 20px;
+    margin: 0px;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    
+}
+.services:hover {
+    transform: scale(1.1);
+}
+
+.fa {
+    color: #009e66;
+}
+#Plans {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+
+}
+
+.Plans {
+    
+    display: flex;
+    gap: 20px;
+    height: 400px;
+    margin: 10px 30px;
+}
+.standard {
+    background: rgb(39, 38, 38);
+    text-align: center;
+    margin: 10px 30px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+
+}
+.standard ul li {
+    margin: 10px;
+}
+.standard:hover {
+    transform: scale(1.1);
+}
+.price {
+    font-size: 25px;
+}
+.Plans ul {
+    list-style: none;
+
+}
+#Plans {
+    display: flex;
+    flex-direction: column;
+    
+}
+.copyright{
+    width: 98%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 15px;
+ }
+ .year {
+    color: #009e66;
+    font-weight: bold;
+ }
+ footer{
+    position: relative;
+    flex-direction: flex-end;
+    top: 0px;
+    width: 100%;
+ }
