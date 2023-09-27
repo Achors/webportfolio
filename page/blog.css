@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.993);
+    color: white;
+}
+.showcase {
+    display: inline-block;
+}
+.head {
+    border-bottom: 2px solid #009e66;
+    text-align: center;
+
+}
+.head h2 {
+    color:#009e66;
+    font-size: 30px;
+}
+#close {
+    font-size: 25px;
+    color: #009e66;
+    position: fixed;
+    cursor: pointer;
+    right: 50px;
+    top: 20px;
+}
+.images {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 50px;
+}
+.figures {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.figures img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+
+}
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #009e66) ;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    font-size: 15px;
+    text-align: center;
+    transition: height 0.5s;
+}
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.layer a {
+    margin-top: 20px;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 60px;
+    background: #006843;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.figures:hover img{
+    transform: scale(1.2);
+
+}
+.figures:hover .layer{
+    height: 100%;
+}
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: 100px;
+    text-align: center;
+    border: 3px solid #009e66;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.5s;
+    border-radius: 30px;
+}
+.btn:hover {
+    background: #009e66;
+    transform:scale(1.2);
+    cursor: pointer;
+
+}
+.copyright{
+    width: 90%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 15px;
+ }
+ .year {
+    color: #009e66;
+    font-weight: bold;
+ }
+ footer{
+    position: absolute;
+    flex-direction: flex-end;
+    height: 12vh;
+    bottom: 0px;
+    width: 90%;
+    margin: 0px;
+ }
